@@ -3,7 +3,7 @@
   <ModalWindow :closeModal="closeModal" />
 <div className="container">
   <header>
-    <HeaderSection />
+    <HeaderSection data-aos="zoom-in-left" />
   </header>
   <section><AboutMeSection :urlsData="urlsData" /></section>
   <section><AboutWorkCards /></section>
@@ -19,6 +19,7 @@ import AboutWorkCards from './components/AboutMyWorkSection/AboutWorkCards.vue';
 import MyProjects from './components/MyProjectsSection/MyProjects.vue';
 import FooterSection from './components/Footer/FooterSection.vue';
 import ModalWindow from './components/Modal/ModalWindow.vue';
+
 
 export default {
   components: { ModalWindow, AboutMeSection, HeaderSection, AboutWorkCards, MyProjects, FooterSection },
