@@ -156,12 +156,19 @@ a{
     h2{font-size: 30px !important;}
 }
 @media (max-width:550px) {
+    h1{font-size: 30px !important;}
     h2{font-size: 22px !important;}
+  }
+@media (max-width:500px) {
+    h1{font-size: 27px !important;}
+    section{
+      padding-bottom: 70px;
+    }
   }
 @media (max-width:430px) {
     h1{font-size: 25px !important}
     h3{font-size: 16px !important;}
-    p{font-size: 12px !important;}
+    p{font-size: 15px !important;}
     h2{font-size: 18px !important;}
   }
 </style>

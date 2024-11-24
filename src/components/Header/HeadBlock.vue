@@ -52,6 +52,6 @@
 }
 @media (max-width: 550px) {
     .Invisible{display: none;}
-    .HeadInfoBlock{padding-left: 0;}
+    .HeadInfoBlock{padding: 0;}
 }
 </style>

@@ -109,11 +109,17 @@ export default {
     .aboutMyWorkCard{
         height:120px;
     }
-}
-@media (max-width:550px) {
-    /* .aboutMyWorkCard{gap: 10px} */
+    .aboutMyWorkCard:hover{
+        height: 120px;
+    }
 }
 @media (max-width:430px) {
-    .aboutMyWorkCard{width: 200px;}
+    .aboutMyWorkCard{
+        width: 200px;
+        height: 100px;
+    }
+    .aboutMyWorkCard:hover{
+        height: 100px;
+    }
 }
 </style>

@@ -58,6 +58,7 @@ export default {
     .myPhoto{display:none}
 }
 @media (max-width: 750px) {
+  .aboutMeSection{display: block;}
     .aboutMeInfo{gap: 30px}
 }
 @media (max-width:550px) {
