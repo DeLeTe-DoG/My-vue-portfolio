@@ -9,7 +9,7 @@
             <p class="projectCardDescription">{{ el.description }}</p>
             <div className="goToSiteButton">
                 <img className="arrow toLeft" v-if="el.id % 2 != 1" src="../../images/ArrowLeft.png">
-                <h4>Перейти на сайт</h4>
+                <a :href="el.href"><h4>Перейти на сайт</h4></a>
                 <img className="arrow toRight" v-if="el.id % 2" src="../../images/ArrowRight.png">
             </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <button @click="openModal"><p>{{ text }}</p></button>
+    <a  href="#aboutMe"><button><p>{{ text }}</p></button></a>
 </template>
 
 <script>

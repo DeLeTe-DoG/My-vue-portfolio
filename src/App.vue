@@ -1,9 +1,9 @@
 <template>
-
-  <ModalWindow :closeModal="closeModal" />
+  
+  <!-- <ModalWindow :closeModal="closeModal" /> -->
 <div className="container">
   <header>
-    <HeaderSection data-aos="zoom-in-left" />
+    <HeaderSection />
   </header>
   <section><AboutMeSection :urlsData="urlsData" /></section>
   <section><AboutWorkCards /></section>
@@ -18,11 +18,42 @@ import HeaderSection from './components/Header/HeaderSection.vue';
 import AboutWorkCards from './components/AboutMyWorkSection/AboutWorkCards.vue';
 import MyProjects from './components/MyProjectsSection/MyProjects.vue';
 import FooterSection from './components/Footer/FooterSection.vue';
-import ModalWindow from './components/Modal/ModalWindow.vue';
+// import ModalWindow from './components/Modal/ModalWindow.vue';
+
+const animItems = document.querySelectorAll(".anim-item");
+
+// if(animItems.length > 0) {
+//     window.addEventListener('scroll', animOnScroll);
+//     function animOnScroll() {
+//         for(let i = 0; i < animItems.length; i++) {
+//             const animItem = animItems[i];
+//             const animItemHeight = animItem.offsetHeight;
+//             const animItemOffset = offset(animItem).top;
+//             const animStart = 4;
+
+//             let animItemPoint = window.innerHeight - animItemHeight / animStart;
+//             if(animItemHeight > window.innerHeight) {
+//                 animItemPoint = window.innerHeight - window.innerHeight / animStart;
+//             }
+
+//             if((pageYOffset > animItemOffset - animItemPoint) && window.scrollY < (animItemOffset + animItemHeight)) {
+//                 animItem.classList.add("_active");
+//             }
+//         }
+//     }
+
+//     function offset(el) {
+//         const rect = el.getBoundingClientRect(),
+//             scrollLeft = window.scrollX || document.documentElement.scrollLeft,
+//             scrollTop = window.scrollY || document.documentElement.scrollTop;
+//         return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+//     }
+//     animOnScroll();
+// }
 
 
 export default {
-  components: { ModalWindow, AboutMeSection, HeaderSection, AboutWorkCards, MyProjects, FooterSection },
+  components: {  AboutMeSection, HeaderSection, AboutWorkCards, MyProjects, FooterSection },
 
   methods: {
     closeModal() {

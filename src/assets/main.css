@@ -1,0 +1,7 @@
+html {
+    scroll-timeline: --page-scroll block;
+}
+
+.Invisible {
+    animation-timeline: --page-scroll;
+}

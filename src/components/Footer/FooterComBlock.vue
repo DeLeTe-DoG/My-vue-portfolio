@@ -1,5 +1,5 @@
 <template>
-    <div className="FooterSectComBlock">
+    <div className="FooterSectComBlock wow bounceInUp">
         <ContactsBlock />
         <!-- <p>или</p> -->
         <!-- <Button :text="text"></Button> -->
