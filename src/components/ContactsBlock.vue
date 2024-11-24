@@ -62,4 +62,15 @@ export default {
     .widget{
         width: 40px;    
     }
+
+    @media (max-width: 1000px) {
+    .widget{width: 35px;}
+}
+@media (max-width: 750px) {
+    .widget{width: 30px;}
+}
+@media (max-width:550px) {
+    .widgets{gap: 15px}
+    .widget{width: 20px;}
+}
 </style>

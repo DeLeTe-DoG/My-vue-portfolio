@@ -37,4 +37,30 @@ export default {
 .myPhoto{
   width: 380px;
 }
+
+
+@media (max-width: 1200px){
+  .aboutMeSection{
+        gap:10px;
+  }
+  .myPhoto{
+    width: 330px;
+  }
+}
+
+@media (max-width: 1100px) {
+  
+  .myPhoto{
+    width: 300px;
+  }
+}
+@media (max-width: 900px) {
+    .myPhoto{display:none}
+}
+@media (max-width: 750px) {
+    .aboutMeInfo{gap: 30px}
+}
+@media (max-width:550px) {
+  .aboutMeInfo{width: 350px;}
+}
 </style>

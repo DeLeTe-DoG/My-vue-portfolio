@@ -68,7 +68,6 @@ export default {
     .aboutMyWorkDescription{
         padding: 10px;
         height: 0;
-        /* display: none; */
         opacity: 0;
         transition: all 0.2s ease-in;
     }
@@ -76,9 +75,45 @@ export default {
         height: max-content;
     }
     .aboutMyWorkCard:hover .aboutMyWorkDescription{
-        /* display: block; */
         height: max-content;
         opacity: 1;
     }
-    
+@media (max-width: 1250px) {
+    .aboutMyWorkBlock{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: max-content;
+        row-gap: 50px;
+    }
+    .aboutMyWorkCard{
+        margin: 0 auto;
+        height: 190px;
+        width: 220px;
+        /* height: max-content; */
+    }
+    .aboutMyWorkCard:hover{
+        height: 190px;
+    }
+    .aboutMyWorkDescription{
+        opacity: 1 !important;
+      }
+}
+@media (max-width: 700px) {
+    header{margin-left: 20px;}
+    .aboutMyWorkBlock{
+        display: flex;
+        flex-direction: column;
+        /* height: max-content; */
+        gap: 50px;
+    }
+    .aboutMyWorkCard{
+        height:120px;
+    }
+}
+@media (max-width:550px) {
+    /* .aboutMyWorkCard{gap: 10px} */
+}
+@media (max-width:430px) {
+    .aboutMyWorkCard{width: 200px;}
+}
 </style>

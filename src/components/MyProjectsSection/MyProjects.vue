@@ -45,4 +45,12 @@
     .rectangle{
         width: 30px;
     }
+
+
+@media (max-width:550px) {
+    .rectangle{
+        margin: 30px 0 15px 0;
+        width: 20px;
+    }
+}
 </style>

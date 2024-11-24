@@ -42,4 +42,16 @@
         border-top: 1px solid #5EFFFF;
         border-left: 1px solid #5EFFFF;
     }
+
+
+@media (max-width: 750px) {
+    .Invisible{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (max-width: 550px) {
+    .Invisible{display: none;}
+    .HeadInfoBlock{padding-left: 0;}
+}
 </style>

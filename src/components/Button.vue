@@ -32,4 +32,9 @@
         cursor: pointer;
     }
     p{color: #fff;}
+
+
+    @media (max-width: 700px) {
+        button{width: 150px !important; height: 30px !important;}
+    }
 </style>

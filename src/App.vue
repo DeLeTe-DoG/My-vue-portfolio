@@ -131,4 +131,37 @@ a{
   color: #000;
   text-align: center;
 }
+
+
+@media (max-width: 1250px) {
+  h1{
+    font-size: 60px !important;
+  }
+  .HeadBlock{
+    margin-top: 0;
+  }
+}
+@media (max-width: 1100px) {
+    p{
+        font-size: 20px;
+    }
+    h3{font-size: 28px;}
+    h1{font-size: 50px !important;}
+    h2{font-size: 35px !important;}
+}
+@media (max-width: 700px) {
+  h1{font-size: 35px !important}
+    h3{font-size: 20px;}
+    p{font-size: 16px;}
+    h2{font-size: 30px !important;}
+}
+@media (max-width:550px) {
+    h2{font-size: 22px !important;}
+  }
+@media (max-width:430px) {
+    h1{font-size: 25px !important}
+    h3{font-size: 16px !important;}
+    p{font-size: 12px !important;}
+    h2{font-size: 18px !important;}
+  }
 </style>

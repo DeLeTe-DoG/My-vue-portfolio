@@ -1,0 +1,19 @@
+@media (max-width: 1250px) {
+    .aboutMyWorkBlock{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: max-content;
+        row-gap: 50px;
+    }
+    .aboutMyWorkCard{
+        margin: 0 auto;
+        height: 190px;
+        /* height: max-content; */
+    }
+    .aboutMyWorkCard:hover{
+        height: 190px;
+    }
+    .aboutMyWorkDescription{
+        opacity: 1 !important;
+      }
+}

@@ -66,6 +66,7 @@
     }
     .projectCardImg{
         width: 48%;
+        box-shadow: 16px 24px rgb(94, 255, 255, 0.2);
     }
     .leftImg{
         float: left;
@@ -103,4 +104,57 @@
     p{
         color: #fff;
     }
+
+
+@media (max-width: 1250px) {
+    .projectCard{
+        display: flex;
+        flex-direction: column;
+        /* gap: 60px; */
+    }
+    .projectCardTitle, .projectCardDescription{
+        transform:none;
+    }
+    .pojectCardInfo{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .arrow{
+        display: none;
+    }
+    .projectCardImg{
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .projectCardImg{
+        margin: 0 auto;
+        width: 500px;
+        box-shadow: 10px 12px rgb(94, 255, 255, 0.2);
+    }
+    .projectCard{width: 500px; gap: 30px}
+    .projectCardInfo{gap: 20px}
+    .yearRectangle{
+        width:70px;
+        height: 20px;
+    }
+}
+@media (max-width:550px) {
+    .projectCardInfo{gap: 10px}
+    .projectCardImg{
+        margin: 0 auto;
+        width: 350px;
+        box-shadow: 10px 12px rgb(94, 255, 255, 0.2);
+    }
+    .projectCard{width: 350px;}
+}
+@media (max-width:430px) {
+    .projectCardImg{
+        margin: 0 auto;
+        width: 300px;
+        box-shadow: 10px 12px rgb(94, 255, 255, 0.2);
+    }
+    .projectCard{width: 300px;}
+}
 </style>
